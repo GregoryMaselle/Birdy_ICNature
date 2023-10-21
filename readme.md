@@ -34,4 +34,6 @@ To use Birdy using an android device:
 5.) Click 'run program' and the program will run on your device
 Alternatively, you can download the Birdy apk onto the smartphone and install the app by running the apk
 
+## Notices
 
+ALL IMAGES DO NOT BELONG TO THE DEVELOPER/S AND THIS APPLICATION IS NOT INTENDED TO BE USED COMMERCIALLY. THE IMAGES BELONG TO THEIR ORIGINAL OWNERS AND THE DEVELOPERS CLAIM NO OWNERSHIP OF SAID IMAGES.
