@@ -4,7 +4,7 @@ Birdy
 
 # Description
 
-Application used to identify birds at Intaka Island, learn about them and add them to your bird spottings.
+Application used to identify birds at Intaka Island, learn about them and add them to your bird spottings, amongst other features.
 
 ## Setting up the emulator
 
