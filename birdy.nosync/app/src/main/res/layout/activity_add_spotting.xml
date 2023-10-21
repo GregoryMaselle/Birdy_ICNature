@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome"
+    tools:context=".AddSpottingActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/birdSpottedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="550dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/bird_spotted"
+        android:textColor="@color/red"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/birdCommonName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/intakaGreen"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:text="@string/common_name"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birdSpottedTextView" />
+
+
+    <TextView
+        android:id="@+id/birdCommonNameAnswer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/intakaLightGreen"
+        android:textSize="12pt"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birdCommonName" />
+
+    <TextView
+        android:id="@+id/habitatQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/habitat_spotted"
+        android:textColor="@color/black"
+        android:textSize="12pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birdCommonNameAnswer" />
+
+    <Spinner
+        android:id="@+id/HabitatSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/habitatQuery" />
+
+    <Button
+        android:id="@+id/map_btn"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/intakaGreen"
+        android:text="@string/map_add_spotting"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toEndOf="@id/HabitatSpinner"
+        app:layout_constraintTop_toBottomOf="@id/habitatQuery"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/whatDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/date_spotted"
+        android:textColor="@color/black"
+        android:textSize="12pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HabitatSpinner" />
+
+    <CalendarView
+        android:id="@+id/spottingCalendar"
+        android:layout_width="310dp"
+        android:layout_height="315dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whatDateTextView" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/add_spotting"
+        android:backgroundTint="@color/intakaGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

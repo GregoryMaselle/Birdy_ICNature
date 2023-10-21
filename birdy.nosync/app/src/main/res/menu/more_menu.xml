@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/natureReserveInfoItem"
+        android:icon="@drawable/ic_baseline_landscape_24"
+        android:title="@string/natureRInfo" />
+    <item android:id="@+id/featuresInfoItem"
+        android:icon="@drawable/ic_baseline_landscape_24"
+        android:title="@string/bird_features_information" />
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="@string/help_text" />
+</menu>

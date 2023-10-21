@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "691599335698",
+    "firebase_url": "https://birdydb-57fbb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "birdydb-57fbb",
+    "storage_bucket": "birdydb-57fbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691599335698:android:608b0cf5dd55c2f55053cb",
+        "android_client_info": {
+          "package_name": "com.example.birdy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691599335698-69sfckgirh8copko19mur50jn1obp598.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChtfiLtdgBdQ_zsZQtbrSco81CVHtikZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691599335698-69sfckgirh8copko19mur50jn1obp598.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

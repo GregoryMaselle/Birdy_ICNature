@@ -1,0 +1,210 @@
+<resources>
+
+    <string name="app_name">Birdy</string>
+    <string name="natureRInfo">Nature Reserve Information</string>
+    <string name="help_text">Help</string>
+    <string-array name="helpmenu">
+        <item></item>
+        <item>Bird Features Information</item>
+        <item>Nature Reserve Information</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="habitatlist">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>D1</item>
+        <item>D2</item>
+        <item>D3</item>
+        <item>D4</item>
+        <item>D5</item>
+        <item>E1</item>
+        <item>E2</item>
+        <item>E3</item>
+        <item>E4</item>
+        <item>E5</item>
+    </string-array>
+    <string name="partsCExplain1">The upperparts of the bird refers to the back of the bird, including the back of the neck, wings and top of the tail. The underparts of a bird refers mainly to the belly of the bird. The primary underparts and upperparts colours are exactly what they sound like. Ask yourself: What colour do I see most on the bird\'s upper/underparts? You can then select the option provided that suits your assessment best. \nThere are two colours that are a bit weird and you might not have heard of them or maybe you just need a reminder of how they look. Those colours are \'rufuous\' and \'olive\'. You can see these colours in the image below. Think of rufuous as a rusty brown red, while olive is a dark yellowish-green colour. Please note that there can be lighter shades of rufuous, just consider something that is rust-coloured as rufuous.
+</string>
+    <string name="primaryCParts">Primary Under/Upperparts Colour/s</string>
+    <string name="primaryBShape">Primary Bill Shape</string>
+    <string name="billColourDisplay">Bill Colour/s: %1$s</string>
+    <string name="billShapeDisplay">Bill Shape: %1$s</string>
+    <string name="heightDisplay">Height: %1$s</string>
+    <string name="underpartsDisplay">Underparts Colour/s: %1$s</string>
+    <string name="upperpartsDisplay">Upperparts Colour/s: %1$s \n</string>
+    <string name="conical">CONICAL</string>
+    <string name="dipnetting">DIP NETTING</string>
+    <string name="filter_feeding">FILTER FEEDING</string>
+    <string name="goosebill">GOOSEBILL</string>
+    <string name="hooked">HOOKED</string>
+    <string name="long_and_curved">LONG AND CURVED</string>
+    <string name="long_and_dull">LONG AND DULL</string>
+    <string name="long_and_hooked">LONG AND HOOKED</string>
+    <string name="long_and_upcurved">LONG AND UPCURVED</string>
+    <string name="short_and_pointed">SHORT AND POINTED</string>
+    <string name="straight_and_pointed">STRAIGHT AND POINTED</string>
+    <string name="tiny_and_pointed">TINY AND POINTED</string>
+    <string name="spatula">SPATULA</string>
+    <string name="spoon_shaped">SPOON- SHAPED</string>
+    <string name="billShapeExplain1">The bill shape refers to the general shape of the bird\'s bill/beak from the view of the average person. So, the bill shapes can be described by the following features\n</string>
+    <string name="billColourExplain1">Think of the primary colour of the bird\'s bill as the main colour of the bird\'s bill. If you think a bird has a bill that is black and white, you should choose the colour that you think covers the bill the most. As long as you make your best guess as to what the bill colour is, then you should get the results you want. </string>
+    <string name="heightExplain1">Note that the height we are talking about here is not the distance between the bird\'s head and the ground. Here, the height refers to the distance between the tip of the bird\'s bill and the tip of the bird\'s tail when the bird is laid out flat. This can be challenging to visualize at first but you will get the hang of it!</string>
+    <string name="bird_options">MATCHING BIRDS</string>
+    <string name="bird_spottings">BIRD SPOTTINGS</string>
+    <string name="name_heading">Name</string>
+    <string name="date_heading">Date</string>
+    <string name="habitat_heading">Habitat</string>
+    <string name="select">Please select an option</string>
+    <string name="bird_spotted">BIRD SPOTTED!</string>
+    <string name="common_name">COMMON NAME</string>
+    <string name="african_reed_warbler">African Reed Warbler</string>
+    <string name="scientific_name">SCIENTIFIC NAME</string>
+    <string name="acrocephalus_baeticatus">Acrocephalus baeticatus</string>
+    <string name="habitat_spotted">Which habitat did you spot it in?</string>
+    <string name="date_spotted">When did you spot the bird?</string>
+    <string name="add_spotting">Add Spotting</string>
+    <string name="ellipsis">. . .</string>
+    <string name="spottings_text">Spottings</string>
+    <string name="home_text">Home</string>
+    <string name="search_text">Search</string>
+    <string name="find_text">FIND BIRD BY FEATURES</string>
+    <string name="select_size">Please Select the Size of the Bird:</string>
+    <string name="main_colour">Please Select the Main Colour of the Bird:</string>
+    <string name="bird_actions">Please Select What the Bird was Doing:</string>
+    <string name="submit_text">submit</string>
+    <string name="reserve_info">SAMPLETEXT - INFORMATION ABOUT RESERVE WILL GO HERE</string>
+    <string name="intaka_text">Intaka Island</string>
+    <string name="bird_spotting_title">Intaka Island Bird Spotting App</string>
+    <string name="bird_search_list">Bird Search</string>
+    <string name="spottings">Spottings</string>
+    <string name="map_text">Map</string>
+    <string name="information_text">Reserve Information</string>
+    <string name="find_bird">Find Bird by Features</string>
+    <string name="delete_description">This is a delete button, used to delete a spotting from the bird spottings page.</string>
+    <string name="select_billC">Please select the primary colour/s of the bird\'s bill</string>
+    <string name="select_billS">Please select the shape of the bird\'s bill</string>
+    <string name="select_height">Please select the height of the bird (in cm)</string>
+    <string name="select_underC">Please select the primary colour/s of the bird\'s underparts</string>
+    <string name="select_upperC">Please select the primary colour/s of the bird\'s upperparts</string>
+    <string name="delete_all_btn">DELETE ALL</string>
+    <string name="no_match_text">NO BIRDS MATCH THAT COMBINATION OF CHARACTERISTICS</string>
+    <string name="strong_match">STRONGEST MATCHES</string>
+    <string name="weak_match">WEAKEST MATCHES</string>
+    <string name="radio_common_name">Common Name</string>
+    <string name="radio_scientific_name">Scientific Name</string>
+    <string name="help_button">Help</string>
+    <string name="help_title">HELP</string>
+    <string name="help_info_heading">Information Page</string>
+    <string name="help_add_spotting_title">Adding a Bird Spotting</string>
+    <string name="help_search">The search bar is useful for searching for a specific bird either by their common name or scientific name. You can choose which name to search by with the use of the two buttons above the search bar which are labelled as such. Below the search bar is a list of all of the birds at Intaka Island with either their common or scientific name depending on your preference. You may either scroll through this list to find the bird you are looking for, or type the name into the search bar to find the bird. Once you find the bird that you are looking for, you may click on it to reveal a page displaying information about the bird as well as an image of the bird.
+On the Bird Information page, you may scroll through the features and description of the bird to learn more about the bird. Additionally, you can add the bird to your list of spottings, by clicking the eye button next to the bird image.</string>
+    <string name="help_fbbf">This feature is useful for identifying a bird you are looking at by describing its features. After clicking on this button on the home page you will be taken to a screen with 5 questions. Answer these questions in a manner that best describes the bird you are looking at and click submit. After clicking submit, you will be taken to a screen which displays all the birds that match at least four of the features you provided. You may click on the bird names to view what the bird looks like and determine if it is the right bird. When clicking on the bird names, you are taken to the respective bird information display page for that specific bird. Once you find the bird you were looking for from the results, you may go through their specific information page.</string>
+    <string name="help_spottings">The spottings screen displays a list of all of the birds you have spotted and added to your bird spottings. If you click on a spotting, you will be directed to the respective bird information screen for the specific bird which was clicked on. If you wish to delete a spotting, click the bin icon at the top of the screen. This will direct you to a page where you may select a spotting to delete, or delete all of your spottings by clicking the “Delete All” button. Once clicking on a spotting or the delete all button, you will be asked to confirm your deletion. Once the deletion is confirmed, you can either choose to return to the spottings page or to delete more spottings.</string>
+    <string name="help_add_spotting">If you wish to add a bird spotting you may do so by clicking the eye button next to the bird image on the bird information display page. You will then be asked to select the habitat in which the spotting occurred. This is the point in the map grid provided where the bird spotting took place. Finally, you can select the date of the spotting and click the add spotting button. You will then be directed to the spotting page, with your new spotting added to your list.</string>
+    <string name="help_map">The map screen can be opened from the Home Screen by clicking on the map button. This screen displays the map that is given to visitors upon entry to Intaka Island. On this screen, you may zoom into the map and scroll around it to help you in navigating around Intaka Island.
+</string>
+    <string name="help_info">If you click on the information button on the home page, you will be directed to a screen which displays some information about Intaka Island.</string>
+    <string name="map_add_spotting">MAP</string>
+    <string name="primary_bill_colour">Primary Bill Colour</string>
+    <string name="bird_height">Bird Height</string>
+    <string-array name="sizes">
+        <item>5-10</item>
+        <item>11-20</item>
+        <item>21-35</item>
+        <item>36-50</item>
+        <item>51-65</item>
+        <item>66+</item>
+    </string-array>
+    <string-array name="billColours">
+        <item>Black</item>
+        <item>White</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="coatColours">
+        <item>Black</item>
+        <item>Black and Brown</item>
+        <item>Black and White</item>
+        <item>White</item>
+        <item>Brown and White</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Blue-green</item>
+        <item>Green</item>
+        <item>Olive</item>
+        <item>Pink</item>
+        <item>Rufuous</item>
+    </string-array>
+
+    <string-array name="billShapes">
+        <item>Conical</item>
+        <item>Dip Netting</item>
+        <item>Filter Feeding</item>
+        <item>Goosebill</item>
+        <item>Hooked</item>
+        <item>Long and Curved</item>
+        <item>Long and Dull</item>
+        <item>Long and Hooked</item>
+        <item>Long and Upcurved</item>
+        <item>Long and Hooked</item>
+        <item>Short and Pointed</item>
+        <item>Straight and Pointed</item>
+        <item>Tiny and Pointed</item>
+        <item>Spatula</item>
+        <item>Spoon-shaped</item>
+    </string-array>
+
+    <string name="res_Info">RESERVE INFO</string>
+    <string name="intaka_Information">Intaka Island, an award-winning 16 hectare wetlands and bird sanctuary, is home to 177 species of indigenous fynbos plants and 120 bird species. Intaka – which means ‘bird’ in Xhosa – is a unique example of nature conservation and urban development co-existing in harmony. Apart from its environmental significance, the area offers a place of solace to take a stroll, relax, and get away from the hustle and bustle of everyday life</string>
+    <string name="contact_Head">Contact Information</string>
+    <string name="location"><b>Location:</b> Grand Central Precinct, 2 Park Ln, Century City, Cape Town, 7441, South Africa</string>
+    <string name="phone"><b>Phone:</b> <a href="tel:+27 21 552 6889">+27 21 552 6889</a></string>
+    <string name="email"><b>Email:</b> info@intaka.co.za</string>
+    <string name="fac_Hours">Facility Hours</string>
+    <string name="hour_Info">
+        <b>October – April:</b>\n
+Monday – Sunday:  08h00 – 19h00 daily\n\n
+<b>May – September:</b>\n
+Monday – Sunday:  08h00 – 17h30 daily\n\n
+Open every day of the year, except 25 December.</string>
+    <string name="birds">Birds</string>
+    <string name="intaka_Birds">Intaka boasts 120 different bird species in a safe, easy-to-reach area due to the diversity of Intaka Islands 7 different habitats. The terrestrial habitat of fynbos, shrubs and grasses attracts birds like the Cape Francolin, Weavers and Cape Sparrows. The shrub areas provide safe foraging areas for Cape White-Eyes, Robin Chats and Spotted Prinias while the open water is suitable for the Cape Shoveller, Yellow Billed Duck, Red Knobbed Coot and Moorhen. Reed Beds provide food and nesting for the Little Bittern, Purple Swamphen, Masked Weaver, Red Bishop and Levaillant’s Cisticola.\n
+
+With bird-watching being one of the fastest growing recreational activities, Intaka Island offers birdwatchers and nature enthusiasts in general a unique opportunity to discover and study our birds up close in their natural habitat.\n
+
+A number of birds also make use of the man made heronries on Intaka Island for breeding and roosting. These heronries have been recognized internationally for both their simple construction and success at attracting birds.</string>
+    <string name="more">More:</string>
+    <string name="for_more">For more information about Intaka Island, please visit www.intaka.co.za</string>
+    <string name="features_info_title">FEATURES INFO</string>
+    <string name="bird_features_information">Bird Features Information</string>
+    <string name="enter_bird_name">Enter bird name</string>
+    <string name="enter_bill_colour">Enter bill colour</string>
+    <string name="enter_bill_shape">Enter bill shape</string>
+    <string name="enter_bird_height">Enter bird height</string>
+    <string name="enter_underparts_colour">Enter underparts colour</string>
+    <string name="enter_upperparts_colour">Enter upperparts colour</string>
+    <string name="add_bird">Add Bird</string>
+</resources>

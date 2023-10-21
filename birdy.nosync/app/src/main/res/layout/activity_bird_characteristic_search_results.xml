@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirdCharacteristicSearchResults"
+    android:background="@drawable/backgroundhome">
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:text="@string/bird_options"
+        android:fontFamily="@font/abel"
+        android:textColor="#757575"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_below="@id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/include"
+        android:layout_marginTop="10dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/car_ui_icon_arrow_back"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="67dp"/>
+
+    <ListView
+        android:id="@+id/name_list"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/bestMatchTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/strong_match"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/name_list"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/worstMatchTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/weak_match"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/name_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

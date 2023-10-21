@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity"
+    android:background="@drawable/backgroundhome">
+        <include
+            android:id="@+id/include"
+            layout="@layout/activity_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radio_common"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/radio_common_name"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="20dp"/>
+                <RadioButton
+                    android:id="@+id/radio_scientific"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_scientific_name"
+                    android:layout_marginRight="20dp"/>
+        </LinearLayout>
+        <SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/search_shape"
+            android:layout_marginBottom="12dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="12dp"
+            android:queryHint="Enter bird name"
+            android:iconifiedByDefault="false"
+            android:queryBackground="@android:color/transparent"/>
+
+        <ListView
+            android:id="@+id/bird_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            />
+</LinearLayout>

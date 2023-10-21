@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--THIS ACTIVITY WAS USED WHEN POPULATING OUR BIRD_INFO AND BIRD_FEATURES TABLE IN CONJUNCTION WITH DbActivity
+    AND BirdDB. IT IS NO LONGER IN USE, IT IS MERELY HERE FOR DEMONSTRATION AS TO HOW WE POPULATED OUR DATABASE
+    BEFORE SWITCHING TO THE ROOM DATABASE IMPLEMENTATION GIVEN BY BirdDatabase.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DbActivity">
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_bird_name"/>
+
+    <EditText
+        android:id="@+id/enterBillColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_bill_colour"/>
+
+    <EditText
+        android:id="@+id/enterBillShape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_bill_shape"/>
+    <EditText
+        android:id="@+id/enterHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_bird_height"/>
+    <EditText
+        android:id="@+id/enterUnderparts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_underparts_colour"/>
+    <EditText
+        android:id="@+id/enterUpperparts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="@string/enter_upperparts_colour"/>
+
+
+
+    <Button
+        android:id="@+id/addBird"
+        android:layout_width="150sp"
+        android:layout_gravity="center"
+        android:text="@string/add_bird"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp" />
+
+
+</LinearLayout>

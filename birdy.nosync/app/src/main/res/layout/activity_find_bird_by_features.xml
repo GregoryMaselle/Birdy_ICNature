@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhome"
+    tools:context=".FindBirdByFeatures"
+    >
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/title_help_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/include">
+        <TextView
+            android:id="@+id/titleFind"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/find_text"
+            android:layout_weight="1"
+            android:fontFamily="@font/abel"
+            android:textColor="@color/black"
+            android:textSize="16pt"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/charHelpbtn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/include"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf='@+id/titleFind'
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/info" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/separator"
+        android:layout_width = "match_parent"
+        android:layout_height = "15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/intakaGreen"
+        android:layout_below="@id/title_help_layout"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/checktxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_submit"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginEnd="3pt"
+                android:layout_marginBottom="3pt"
+                android:breakStrategy="balanced"
+                android:gravity="left"
+                android:text="@string/select_billC"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/s1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q1"
+                android:layout_centerHorizontal="true"
+                android:minHeight="24dp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c1"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginEnd="3pt"
+                android:layout_marginBottom="3pt"
+                android:breakStrategy="balanced"
+                android:gravity="left"
+                android:text="@string/select_billS"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q2"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c2"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginEnd="3pt"
+                android:layout_marginBottom="3pt"
+                android:breakStrategy="balanced"
+
+                android:gravity="left"
+                android:text="@string/select_height"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/s3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c3"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginEnd="3pt"
+                android:layout_marginBottom="3pt"
+                android:breakStrategy="balanced"
+                android:gravity="left"
+                android:text="@string/select_underC"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/s4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q4"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c4"
+        android:layout_margin="10dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3pt"
+                android:layout_marginTop="3pt"
+                android:layout_marginEnd="3pt"
+                android:layout_marginBottom="3pt"
+                android:breakStrategy="balanced"
+                android:gravity="left"
+                android:text="@string/select_upperC"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/s5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/q5"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c5"
+        android:backgroundTint="@color/intakaGreen"
+        android:gravity="center"
+        android:text="@string/submit_text"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
