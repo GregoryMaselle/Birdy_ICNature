@@ -34,6 +34,12 @@ To use Birdy using an android device:
 5.) Click 'run program' and the program will run on your device
 Alternatively, you can download the Birdy apk onto the smartphone and install the app by running the apk
 
+## Notes on Collaboration
+
+This code was developed by GregoryMaselle, TaahirSuleman and prashanthPadiachy. Version control was initially done on gitlab.
+Please find the associated gitlab used for our project at the link below. In order to use this link, you must be logged in to a UCT account.
+https://gitlab.cs.uct.ac.za/mslgre001/icnature_group_6
+
 ## Notices
 
 ALL IMAGES DO NOT BELONG TO THE DEVELOPER/S AND THIS APPLICATION IS NOT INTENDED TO BE USED COMMERCIALLY. THE IMAGES BELONG TO THEIR ORIGINAL OWNERS AND THE DEVELOPERS CLAIM NO OWNERSHIP OF SAID IMAGES.
