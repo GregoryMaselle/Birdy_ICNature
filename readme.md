@@ -34,7 +34,4 @@ To use Birdy using an android device:
 5.) Click 'run program' and the program will run on your device
 Alternatively, you can download the Birdy apk onto the smartphone and install the app by running the apk
 
-## Link to our gitlab
 
-Please find the associated gitlab used for our project at the link below. In order to use this link, you must be logged in to your uct account.
-https://gitlab.cs.uct.ac.za/mslgre001/icnature_group_6
