@@ -36,3 +36,9 @@ application were, before proceeding with designing and implementing it. Once the
 specification was complete, we employed a model more similar to agile with iterative development and
 testing phases. This hybrid model was best suited to our needs and aided us in timeously and effectively
 developing the application as required.
+
+## Development
+
+This application is a mobile application and was developed in Android Studio in the language Kotlin.
+Some other tools that were used in this applications development was Selenium (for image collection)
+as well as Wikipedia API. 
