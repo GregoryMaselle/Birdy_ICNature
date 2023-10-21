@@ -38,7 +38,7 @@ Alternatively, you can download the Birdy apk onto the smartphone and install th
 
 This code was developed by GregoryMaselle, TaahirSuleman and prashanthPadiachy. Version control was initially done on gitlab.
 Please find the associated gitlab used for our project at the link below. In order to use this link, you must be logged in to a UCT account.
-https://gitlab.cs.uct.ac.za/mslgre001/icnature_group_6
+https://gitlab.cs.uct.ac.za/mslgre001/icnature_group_6 (excuse the mess)
 
 ## Notices
 
